@@ -6,6 +6,17 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+       <meta charSet="UTF-8 " />
+        <meta name="title" content="Nestar Demo" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" type="image/png" href="/img/logo/favicon.svg" />
+
+        {/* SEO */}
+        <meta name="keyword" content={"nestar, nestar.uz, devex mern, mern nestjs fullstack"} />
+        <meta name="description" content={
+          "Buy and sell properties anywhere anytime in South Korea. | " +
+          "Покупайте и продавайте недвижимость в любое время и в любом месте по всей Южной Корее. | " +
+          "언제 어디서든 대한민국의 부동산을 사고파세요."} />
       <body>
         <Main />
         <NextScript />
