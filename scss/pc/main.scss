@@ -1,6 +1,4 @@
 /** IMPORT **/
-//@import "/scss/variables.scss";
-//@import "/scss/pc/homepage/homepage.scss";
 @import "../variables.scss";                
 @import "./homepage/homepage.scss";         
 
@@ -89,6 +87,7 @@
       }
     }
   }
+  
   .header-main {
     position: relative;
     width: 100%;
@@ -167,6 +166,7 @@
               cursor: pointer;
             }
           }
+
           .search-btn {
             margin-left: 12px;
             width: 62px;
@@ -184,6 +184,7 @@
             }
           }
         }
+
         .filter-location {
           position: absolute;
           padding: 40px 60px;
@@ -234,6 +235,7 @@
             }
           }
         }
+
         .filter-type {
           position: absolute;
           padding: 50px;
@@ -283,6 +285,7 @@
             }
           }
         }
+
         .filter-rooms {
           position: absolute;
           padding: 10px 92px;
@@ -328,6 +331,41 @@
       }
     }
   }
+
+  .header-basic {
+    position: relative;
+    width: 100%;
+    height: 557px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #000;
+    &.auth {
+      height: 300px;
+    }
+    .container {
+      margin-top: 175px;
+      strong {
+        color: #fff;
+        font-family: $font;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.96px;
+        text-transform: capitalize;
+      }
+      span {
+        color: #fff;
+        font-family: $font;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
+
   #footer {
     position: relative;
     padding: 60px 0px 18px 0px;
@@ -385,6 +423,7 @@
             }
           }
         }
+
         .right {
           display: flex;
           flex-direction: column;
@@ -435,6 +474,7 @@
               }
             }
           }
+
           .bottom {
             margin-top: 60px;
             display: flex;
@@ -470,6 +510,7 @@
           }
         }
       }
+
       .second {
         margin-top: 60px;
         height: 45px;
