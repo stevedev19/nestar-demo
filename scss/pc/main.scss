@@ -1,8 +1,10 @@
 /** IMPORT **/
-@import "../variables.scss";                
-@import "./homepage/homepage.scss";         
+@import "../variables";
+@import "./homepage/homepage";
+@import "./property/property";
+@import "./property/detail";
 
-
+      
 #pc-wrap {
   #top {
     .navbar {
@@ -87,7 +89,6 @@
       }
     }
   }
-  
   .header-main {
     position: relative;
     width: 100%;
@@ -166,7 +167,6 @@
               cursor: pointer;
             }
           }
-
           .search-btn {
             margin-left: 12px;
             width: 62px;
@@ -184,7 +184,6 @@
             }
           }
         }
-
         .filter-location {
           position: absolute;
           padding: 40px 60px;
@@ -235,7 +234,6 @@
             }
           }
         }
-
         .filter-type {
           position: absolute;
           padding: 50px;
@@ -285,7 +283,6 @@
             }
           }
         }
-
         .filter-rooms {
           position: absolute;
           padding: 10px 92px;
@@ -331,7 +328,6 @@
       }
     }
   }
-
   .header-basic {
     position: relative;
     width: 100%;
@@ -365,7 +361,6 @@
       }
     }
   }
-
   #footer {
     position: relative;
     padding: 60px 0px 18px 0px;
@@ -423,7 +418,6 @@
             }
           }
         }
-
         .right {
           display: flex;
           flex-direction: column;
@@ -474,7 +468,6 @@
               }
             }
           }
-
           .bottom {
             margin-top: 60px;
             display: flex;
@@ -510,7 +503,6 @@
           }
         }
       }
-
       .second {
         margin-top: 60px;
         height: 45px;
