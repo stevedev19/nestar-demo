@@ -4,7 +4,7 @@ import { NextPage } from "next";
 
   const Home: NextPage=() => {
   return (
-    
+  <Stack>
     <Stack flexDirection={"column"}>
       <Stack>
         <Stack className="container" >Popular Properties</Stack>
@@ -16,6 +16,7 @@ import { NextPage } from "next";
         <Stack className="container" >Top Properties</Stack>
         </Stack>
     </Stack>
+  </Stack>
   )
 }
 
