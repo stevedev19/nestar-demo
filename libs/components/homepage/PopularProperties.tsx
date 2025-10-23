@@ -52,7 +52,7 @@ const PopularProperties = ({ initialInput, ...props }: any) => {
 };
 
 PopularProperties.defaultProps = {
-  initialInput: [1, 2, 3, 4, 5, 6, 7],
+  initialInput: [1, 2, 3, 4, 5, 6, 7, ],
 };
 
 export default PopularProperties;
